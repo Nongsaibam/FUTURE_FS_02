@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white;
+}
+
+.glass {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl;
+}
+.glass {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
